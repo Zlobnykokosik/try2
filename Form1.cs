@@ -19,7 +19,7 @@ namespace try2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox2.Text = Convert.ToString(Convert.ToDouble(textBox1.Text));
+            textBox2.Text = Convert.ToString(Convert.ToDouble(textBox1.Text) + 1);
         }
     }
 }
